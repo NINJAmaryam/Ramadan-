@@ -1,0 +1,187 @@
+
+body{
+    margin: 0;
+    padding: 0;
+     list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    background: blueviolet;
+    height: 4rem;
+    padding: 0px 3rem;
+}
+.menu{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+align-items: center;
+list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+}
+header{
+     height: 100vh;
+    background-image: url("../Ramadan shop 2/asset/maryam\ 3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+     font-size: 3rem;
+   background-color:teal;
+   color: white;
+   padding: 5px;
+   border-radius: 10px;
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+header p{
+     margin-top: 5px;
+    font-size: 1.3rem;
+   background-color:rgb(38, 38, 73);
+   color: white;
+   padding: 10px;
+   border-radius: 10px;
+   text-align: center;
+   font-weight: 400;
+}
+section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  beige;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+}
+.cards img{
+     width: 100px;
+    height: 100px;
+    border-radius: 70px;
+}
+.logo img{  
+    height:80px;
+    width: 80px;
+    border-radius:50%;
+}
+.card{
+     width: 250px;
+}
+.plate{
+    width: 370px;
+    display: flex;
+    height: 270px;
+    gap: 10px;
+    margin: 30px 8px;
+    background-color: blueviolet;
+}
+article{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choose{
+    text-align: center;
+    background: wheat;
+}
+.plans{
+    display: flex;
+gap: 50px;
+justify-content: center;
+}
+.classplans{
+       width: 200px;
+   background: white;
+    box-shadow: 0px 6px 7px;
+    padding: 10px 17px;
+    border-radius: 10px;
+    text-align: center;
+}
+button{
+     width:170px;
+    height: 30px;
+    color: white;
+    background:skyblue;
+    cursor: pointer;
+}
+
+footer{
+     margin-top: 40px;
+    display: flex;
+    gap: 50px;
+    background: blueviolet;
+    padding: 15px 15px;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+display: flex;
+    flex-direction: column;
+    gap: 7px;
+    text-decoration: none;
+    color: black;
+}
+.copyright{
+     text-align: center;
+  background: skyblue;
+padding: 12px 10px ;
+font-size: 20PX;
+}
+@media (max-width: 768px){
+      .cards {
+   display:flex ;
+   flex-direction: column;
+   gap: 20px; 
+}  
+
+   .plate{
+    background-color: blueviolet;
+    width: 300px;
+    display: flex;
+    gap: 8px;
+    padding: 10px;
+    margin: 30px 8px;
+}
+footer{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.plate img{
+    width: 170px;
+    height:220px;
+    margin-top:20px;
+}
+.menu{
+display: flex;
+flex-direction: column;
+gap: 7px;
+height: 230px;
+width: 500px;
+background: pink;
+z-index: 10px;
+margin-top: 20px;
+padding: 10px 20px;
+}
+.classplans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plans{
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
